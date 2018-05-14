@@ -1,5 +1,5 @@
 <template>
-<h1>{{ msg }}</h1>
+<h2>{{ msg }}</h2>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ export default {
   name: 'Login',
   data () {
     return {
-      msg: 'Login Example'
+      msg: '사용자 로그인'
     }
   }
 }
