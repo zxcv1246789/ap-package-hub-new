@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     FileList () {
-      this.$http.get('http://localhost:9010/file'
+      this.$http.get('/api/file'
       ).then(function (result) {
         this.fileNmaelist = result
         console.log(this.fileNmaelist.data[0])

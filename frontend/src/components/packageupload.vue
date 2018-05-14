@@ -25,7 +25,7 @@ export default {
         let formData = new FormData()
         formData.append('fileKey', this.file)
 
-        this.$http.post('http://localhost:9010/upload',
+        this.$http.post('/api/upload',
           formData, {
             headers: {
               'Content-Type': 'multipart/form-data'
