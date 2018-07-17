@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jwlee</groupId>
-	<artifactId>packageManager</artifactId>
+	<artifactId>packageManager-Web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>packageManager</name>
+	<name>packageManager-Web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

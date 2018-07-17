@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Login from '@/components/login'
 import PackageUpload from '@/components/packageupload'
 import PackageList from '@/components/packagelist'
-
+import LogeList from '@/components/Loglist'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +27,11 @@ export default new Router({
     path: '/filelist',
     name: 'FileList',
     component: PackageList
+  },
+  {
+    path: '/log',
+    name: 'Log',
+    component: LogeList
   }
   ]
 })
